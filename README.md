@@ -10,4 +10,3 @@ Esta pasta inclui todos os ficheiros utilizados pelo Grupo 17, nomeadamente:
 - "ImprovedModel.bpmn" -> modelo "bpmn" baseado no modelo "DiscoveredModel.bpmn", melhorado e organizado na ferramenta signavio.
 - "G17.docx" -> Relatório de trabalho que contem respostas às perguntas e clarificações sobre as opções tomadas pelo grupo.
 -  "Enunciado.pdf" -> ficheiro pdf referente ao enunciado do projeto proposto pelos professores.
-ya bro
