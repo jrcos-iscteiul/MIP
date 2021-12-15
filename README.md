@@ -1,7 +1,5 @@
 # MIP
-Pasta de Grupo 17
-
-Esta pasta inclui todos os ficheiros utilizados pelo Grupo 17, nomeadamente:
+Este repositório contém todos os ficheiros utilizados pelo Grupo 17, nomeadamente:
 
 - "AssessDistributions.Rmd" -> ficheiro disponiblizado pelos professores de forma a transformar e analizar os dados disponiblizados no ficheiro excel.
 - "AssessDistributions.html" -> ficheiro "html" gerado a partir do output resultante do ficheiro "AssessDistributions.Rmd". Este ficheiro foi criado de forma a facilitar a leitra dos dados estatisticos gerados pelo ficheiro de transformação de dados.
