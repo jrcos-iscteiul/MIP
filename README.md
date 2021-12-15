@@ -8,6 +8,17 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17, nomeadame
 - "ImprovedModel.bpmn" -> modelo "bpmn" baseado no modelo "DiscoveredModel.bpmn", melhorado e organizado na ferramenta signavio.
 - "G17.docx" -> Relatório de trabalho que contem respostas às perguntas e clarificações sobre as opções tomadas pelo grupo.
 -  "Enunciado.pdf" -> ficheiro pdf referente ao enunciado do projeto proposto pelos professores.
+FALTA:
+-BIMP
+-JSON
+-UML
+-ImprovedModel.bpmn
+-DiscoveredScenario.bpmn
+-DiscoveredSimulationLog.mxmml.gz
+-Minimalista.bpmn
+-Esbanjador.bpmn
+-Otimizado.bpmn
+-ImplementationModel.bpmn
 
 O grupo também criou um video de forma a explicar o modelo BPMN utilizado e demonstrando o sistema desenvolvido:
 - Link Youtube -> "".
