@@ -44,9 +44,6 @@ DIRETORIA "delegate":
 
 FALTA:
 -WORD
--BIMP
--JSON
--UML
 -ImprovedModel.bpmn
 -DiscoveredScenario.bpmn
 -DiscoveredSimulationLog.mxmml.gz
