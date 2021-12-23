@@ -1,0 +1,38 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomePlano",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "idBilheteAviao",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "numeroLugarAviao",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "aviao",
+      "otherEntityName": "aviao",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "nomeCompanhiaAerea"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "TripPlanProcess",
+  "processEntityName": "TripPlanProcess",
+  "taskBpmnId": "RegistarReservaAviao",
+  "domainEntityName": "TripPlan",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "RegistarReservaAviao",
+  "changelogDate": "20210401000004"
+}
