@@ -16,10 +16,19 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17 na 2ºPart
 
   - "AssessDistributions.Rmd" -> ficheiro disponiblizado pelos professores de forma a transformar e analizar os dados disponiblizados no ficheiro excel.
   - "AssessDistributions.html" -> ficheiro "html" gerado a partir do output resultante do ficheiro "AssessDistributions.Rmd". Este ficheiro foi criado de forma a facilitar a leitra dos dados estatisticos gerados pelo ficheiro de transformação de dados.
-  - "DiscoveredScenario.bpmn" -> 
-  - "DiscoveredSimulationLog.mxmml.gz" -> 
+  - "DiscoveredScenario.bpmn" -> ficheiro bpmn igual ao "ImprovedModel", mas com os dados preenchidos na ferramenta Bimp relativos à simulação« feita.
+  - "DiscoveredSimulationLog.mxmml.gz" -> ficheiro mxmml com informações estatísticas geradas na simulação feita.
 
 - DIRETORIA "3.Otimização dos Recursos do Proceso":
+  - DIRETORIA "Graphics":
+    - "Activity instances over time.pdf" -> 
+  - "MinimalistScenario.bpmn" -> 
+  - "MinimalistSimulationLog.mxml.gz" -> 
+  - "OptimizedScenario.bpmn" -> 
+  - "OptimizedSimulationLog.mxml.gz" -> 
+  - "WastefulScenario.bpmn" -> 
+  - "WastefulSimulationLog.mxml.gz" -> 
+
 
 - "tripPlan-jdl.jdl -> ficheiro .jdl com representação em UML da base de dados utilizada no projeto.
 
