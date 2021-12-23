@@ -11,6 +11,7 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17, nomeadame
 - "Enunciado.pdf" -> ficheiro pdf referente ao enunciado do projeto proposto pelos professores.
 - "tripPlan-jdl.jdl -> ficheiro .jdl com representação em UML da base de dados utilizada no projeto.
 
+DIRETORIA "jsonFiles":
 - "Aviao.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Aviao.
 - "Hotel.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Hotel.
 - "Carro.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Carro.
@@ -25,7 +26,11 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17, nomeadame
 - "RegistarReservaAviao.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do voo.
 - "RegistarReservaHotel.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do hotel.
 - "RegistarReservaCarro.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do carro.
-- 
+
+DIRETORIA "template"
+- "fatura.html" -> ficheiro html representante do email enviado ao cliente com inforção do plano registado.
+
+- "
 
 
 FALTA:
