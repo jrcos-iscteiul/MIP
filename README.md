@@ -4,12 +4,12 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17 na 2ºPart
 - "Enunciado.pdf" -> ficheiro pdf referente ao enunciado do projeto proposto pelos professores.
 
 - DIRETORIA "1.Descoberta":
-- - "G17.xlsx" -> ficheiro excel utilizado na ferramenta "R" que contem os dados fornecidos utilizads na simulação de cenários
-- - "G17.csv" -> ficheiro excel utilizado na ferramenta "Apromore" que contem os dados fornecidos utilizads na simulação de cenários
-- - "DiscoveredModel.bpmn" -> modelo "bpmn" gerado pela ferramenta "apromore" utilizando o ficheiro excel como input de dados.
-- - "G17 - Case Frequency.png" -> fotografia com imagem do processo descoberto no apromore.
-- - "ImprovedModel.bpmn" -> modelo "bpmn" baseado no modelo "DiscoveredModel.bpmn", melhorado e organizado na ferramenta signavio.
-- - "Ficha Mineração G17.pdf" -> ficheiro .pdf com a tabela preenchida para o log do grupo 17.
+  - "G17.xlsx" -> ficheiro excel utilizado na ferramenta "R" que contem os dados fornecidos utilizads na simulação de cenários
+  - "G17.csv" -> ficheiro excel utilizado na ferramenta "Apromore" que contem os dados fornecidos utilizads na simulação de cenários
+  - "DiscoveredModel.bpmn" -> modelo "bpmn" gerado pela ferramenta "apromore" utilizando o ficheiro excel como input de dados.
+  - "G17 - Case Frequency.png" -> fotografia com imagem do processo descoberto no apromore.
+  - "ImprovedModel.bpmn" -> modelo "bpmn" baseado no modelo "DiscoveredModel.bpmn", melhorado e organizado na ferramenta signavio.
+  - "Ficha Mineração G17.pdf" -> ficheiro .pdf com a tabela preenchida para o log do grupo 17.
 
 -DIRETORIA "2.Mineração do Processo":
 
