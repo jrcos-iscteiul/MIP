@@ -13,7 +13,6 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17 na 2ºPart
   - "Ficha Mineração G17.pdf" -> ficheiro .pdf com a tabela preenchida para o log do grupo 17.
 
 - DIRETORIA "2.Mineração do Processo":
-
   - "AssessDistributions.Rmd" -> ficheiro disponiblizado pelos professores de forma a transformar e analizar os dados disponiblizados no ficheiro excel.
   - "AssessDistributions.html" -> ficheiro "html" gerado a partir do output resultante do ficheiro "AssessDistributions.Rmd". Este ficheiro foi criado de forma a facilitar a leitra dos dados estatisticos gerados pelo ficheiro de transformação de dados.
   - "DiscoveredScenario.bpmn" -> ficheiro bpmn igual ao "ImprovedModel", mas com os dados preenchidos na ferramenta Bimp relativos à simulação« feita.
@@ -25,14 +24,14 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17 na 2ºPart
     - "Case Duration.pdf" -> 
     - "Case Variants.pdf" -> 
     - "Work-In-Progress (WIP).pdf" -> 
-  - "MinimalistScenario.bpmn" -> 
-  - "MinimalistSimulationLog.mxml.gz" -> 
-  - "OptimizedScenario.bpmn" -> 
-  - "OptimizedSimulationLog.mxml.gz" -> 
-  - "WastefulScenario.bpmn" -> 
-  - "WastefulSimulationLog.mxml.gz" -> 
+  - "MinimalistScenario.bpmn" -> ficheiro bpmn representante do cenáro minimalista onde apenas é utilizado 1 recurso de cada role.
+  - "MinimalistSimulationLog.mxml.gz" -> ficheiro mxml utilizado para as observações gráficas dos resultados estatisticos no cenario minimalista.
+  - "OptimizedScenario.bpmn" -> ficheiro bpmn representante do cenáro otimizado onde o grupo alterou o valor dos recursos tempo e dinheiro dos valores para a simulação.
+  - "OptimizedSimulationLog.mxml.gz" -> ficheiro mxml utilizado para as observações gráficas dos resultados estatisticos no cenario otimizado.
+  - "WastefulScenario.bpmn" -> ficheiro bpmn representante do cenáro esbanjador onde apenas é utilizado 100 recursos humanos de cada role.
+  - "WastefulSimulationLog.mxml.gz" -> ficheiro mxml utilizado para as observações gráficas dos resultados estatisticos no cenario esbanjador.
 
-- DIRETORIA "Implementação do Processo":
+- DIRETORIA "4.Implementação do Processo":
   - DIRETORIA "delegate":
     - "ApresentarPlanoDelegate.java" -> ficheiro java calcula o preço total das reservas efetuadas e utiliza os serviços de fatura e apresentar plano de forma a mostrar em consola todas as reservas e preços.
     - "CalcularPrecoPromocionalDelegate.java" -> ficheiro java que calcula o preço final após a introdução de uma promoção por parte do cliente.
@@ -61,16 +60,7 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17 na 2ºPart
   - DIRETORIA "template":
     - "fatura.html" -> ficheiro html representante do email enviado ao cliente com inforção do plano registado.
   - "tripPlan-jdl.jdl" -> ficheiro .jdl com representação em UML da base de dados utilizada no projeto.
-  - "ImplementationModel.bpmn" -> 
-
-
-FALTA:
--WORD
--ImprovedModel.bpmn
--Minimalista.bpmn
--Esbanjador.bpmn
--Otimizado.bpmn
-
+  - "ImplementationModel.bpmn" -> ficheiro bpmn criado pelo grupo como processo base na criação da aplicação e implementação do modelo.
 
 O grupo também criou um video de forma a explicar o modelo BPMN utilizado e demonstrando o sistema desenvolvido:
 - Link Youtube -> "".
