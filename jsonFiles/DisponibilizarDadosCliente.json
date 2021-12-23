@@ -1,0 +1,39 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomePlano",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emailCliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numeroContribuinte",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "querCarro",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "TripPlanProcess",
+  "processEntityName": "TripPlanProcess",
+  "taskBpmnId": "DisponibilizarDadosCliente",
+  "domainEntityName": "TripPlan",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "DisponibilizarDadosCliente",
+  "changelogDate": "20210401000004"
+}

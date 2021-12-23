@@ -1,0 +1,39 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomePlano",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "precoTotal",
+      "fieldType": "Double",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "temPromocao",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "promocao",
+      "otherEntityName": "promocao",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "nomePromocao"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "TripPlanProcess",
+  "processEntityName": "TripPlanProcess",
+  "taskBpmnId": "IntroduzirCodigoPromocional",
+  "domainEntityName": "TripPlan",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "IntroduzirCodigoPromocional",
+  "changelogDate": "20210401000004"
+}
