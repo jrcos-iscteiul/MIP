@@ -29,6 +29,7 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17, nomeadame
 
 
 FALTA:
+-WORD
 -BIMP
 -JSON
 -UML
