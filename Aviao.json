@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCompanhiaAerea",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precoAviao",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [],
+  "entityType": "domain",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Aviao",
+  "changelogDate": "20211109000001",
+  "skipFakeData": true
+}

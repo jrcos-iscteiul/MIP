@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeHotel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localizacaoHotel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precoHotel",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [],
+  "entityType": "domain",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Hotel",
+  "changelogDate": "20211109000002",
+  "skipFakeData": true
+}
