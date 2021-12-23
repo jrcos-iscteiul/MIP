@@ -22,6 +22,9 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17 na 2ºPart
 - DIRETORIA "3.Otimização dos Recursos do Proceso":
   - DIRETORIA "Graphics":
     - "Activity instances over time.pdf" -> 
+    - "Case Duration.pdf" -> 
+    - "Case Variants.pdf" -> 
+    - "Work-In-Progress (WIP).pdf" -> 
   - "MinimalistScenario.bpmn" -> 
   - "MinimalistSimulationLog.mxml.gz" -> 
   - "OptimizedScenario.bpmn" -> 
@@ -29,39 +32,37 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17 na 2ºPart
   - "WastefulScenario.bpmn" -> 
   - "WastefulSimulationLog.mxml.gz" -> 
 
+- DIRETORIA "Implementação do Processo":
+  - DIRETORIA "delegate":
+    - "ApresentarPlanoDelegate.java" -> ficheiro java calcula o preço total das reservas efetuadas e utiliza os serviços de fatura e apresentar plano de forma a mostrar em consola todas as reservas e preços.
+    - "CalcularPrecoPromocionalDelegate.java" -> ficheiro java que calcula o preço final após a introdução de uma promoção por parte do cliente.
+    - "DescontarPrecoDelegate.java" -> ficheiro java que calcula o preço final (desconto de 5%) se o cliente utilizar cartão como forma de pagamento.
+    - "EmailTripPlanSummaryDelegate.java" -> ficheiro java que irá fazer o envio do email com a fatura e o registo do plano para o email do cliente.
+  - DIRETORIA "jsonFiles":
+    - "Aviao.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Aviao.
+    - "Hotel.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Hotel.
+    - "Carro.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Carro.
+    - "Promocao.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Promocao.
+    - "TripPlan.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe TravelPlan.
+    - "TripPlanProcess.json" -> ficheiro json do tipo "Process-Bind-Entity" com informação da classe TravelPlan de forma a ligar aos objetos e ao camunda.
+    - "TripPlanStartForm.json" -> ficheiro json do tipo "Start-Form-Entity" com informação inicial da classe TravelPlan.
+    - "DisponibilizarDadosCliente.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá disponibilizar os seus dados de cliente.
+    - "DisponibilizarDadosPagamento.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá disponibilizar os seus dados de pagamento.
+    - "IndicarMetodoPagamento.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá indicar o método de pagamento.
+    - "IntroduzirCodigoPromocional.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá introduzir um código promocional.
+    - "RegistarReservaAviao.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do voo.
+    - "RegistarReservaHotel.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do hotel.
+    - "RegistarReservaCarro.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do carro.
+  - DIRETORIA "service":
+    - "ApresentarPlanoService.java" -> ficheiro java que mostra na consola de comandos o plano e os preço das reservas efetuadas.
+    - "AviaoFaturaService.java" -> ficheiro java que mostra na consola de comandos a informação e o preço da reserva do voo.
+    - "CarroFaturaService.java" -> ficheiro java que mostra na consola de comandos a informação e o preço da reserva do carro.
+    - "HotelFaturaService.java" -> ficheiro java que mostra na consola de comandos a informação e o preço da reserva do hotel.
+  - DIRETORIA "template":
+    - "fatura.html" -> ficheiro html representante do email enviado ao cliente com inforção do plano registado.
+  - "tripPlan-jdl.jdl" -> ficheiro .jdl com representação em UML da base de dados utilizada no projeto.
+  - "ImplementationModel.bpmn" -> 
 
-- "tripPlan-jdl.jdl -> ficheiro .jdl com representação em UML da base de dados utilizada no projeto.
-
-DIRETORIA "jsonFiles":
-- "Aviao.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Aviao.
-- "Hotel.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Hotel.
-- "Carro.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Carro.
-- "Promocao.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Promocao.
-- "TripPlan.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe TravelPlan.
-- "TripPlanProcess.json" -> ficheiro json do tipo "Process-Bind-Entity" com informação da classe TravelPlan de forma a ligar aos objetos e ao camunda.
-- "TripPlanStartForm.json" -> ficheiro json do tipo "Start-Form-Entity" com informação inicial da classe TravelPlan.
-- "DisponibilizarDadosCliente.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá disponibilizar os seus dados de cliente.
-- "DisponibilizarDadosPagamento.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá disponibilizar os seus dados de pagamento.
-- "IndicarMetodoPagamento.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá indicar o método de pagamento.
-- "IntroduzirCodigoPromocional.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá introduzir um código promocional.
-- "RegistarReservaAviao.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do voo.
-- "RegistarReservaHotel.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do hotel.
-- "RegistarReservaCarro.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do carro.
-
-DIRETORIA "template":
-- "fatura.html" -> ficheiro html representante do email enviado ao cliente com inforção do plano registado.
-
-DIRETORIA "service":
-- "ApresentarPlanoService.java" -> ficheiro java que mostra na consola de comandos o plano e os preço das reservas efetuadas.
-- "AviaoFaturaService.java" -> ficheiro java que mostra na consola de comandos a informação e o preço da reserva do voo.
-- "CarroFaturaService.java" -> ficheiro java que mostra na consola de comandos a informação e o preço da reserva do carro.
-- "HotelFaturaService.java" -> ficheiro java que mostra na consola de comandos a informação e o preço da reserva do hotel.
-
-DIRETORIA "delegate":
-- "ApresentarPlanoDelegate.java" -> ficheiro java calcula o preço total das reservas efetuadas e utiliza os serviços de fatura e apresentar plano de forma a mostrar em consola todas as reservas e preços.
-- "CalcularPrecoPromocionalDelegate.java" -> ficheiro java que calcula o preço final após a introdução de uma promoção por parte do cliente.
-- "DescontarPrecoDelegate.java" -> ficheiro java que calcula o preço final (desconto de 5%) se o cliente utilizar cartão como forma de pagamento.
-- "EmailTripPlanSummaryDelegate.java" -> ficheiro java que irá fazer o envio do email com a fatura e o registo do plano para o email do cliente.
 
 FALTA:
 -WORD
@@ -69,7 +70,7 @@ FALTA:
 -Minimalista.bpmn
 -Esbanjador.bpmn
 -Otimizado.bpmn
--ImplementationModel.bpmn
+
 
 O grupo também criou um video de forma a explicar o modelo BPMN utilizado e demonstrando o sistema desenvolvido:
 - Link Youtube -> "".
