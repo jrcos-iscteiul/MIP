@@ -27,11 +27,20 @@ DIRETORIA "jsonFiles":
 - "RegistarReservaHotel.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do hotel.
 - "RegistarReservaCarro.json" -> ficheiro json do tipo "User-Task-Entity" onde o cliente irá fazer a reserva do carro.
 
-DIRETORIA "template"
+DIRETORIA "template":
 - "fatura.html" -> ficheiro html representante do email enviado ao cliente com inforção do plano registado.
 
-- "
+DIRETORIA "service":
+- "ApresentarPlanoService.java" -> ficheiro java que mostra na consola de comandos o plano e os preço das reservas efetuadas.
+- "AviaoFaturaService.java" -> ficheiro java que mostra na consola de comandos a informação e o preço da reserva do voo.
+- "CarroFaturaService.java" -> ficheiro java que mostra na consola de comandos a informação e o preço da reserva do carro.
+- "HotelFaturaService.java" -> ficheiro java que mostra na consola de comandos a informação e o preço da reserva do hotel.
 
+DIRETORIA "delegate":
+- "ApresentarPlanoDelegate.java" -> ficheiro java calcula o preço total das reservas efetuadas e utiliza os serviços de fatura e apresentar plano de forma a mostrar em consola todas as reservas e preços.
+- "CalcularPrecoPromocionalDelegate.java" -> ficheiro java que calcula o preço final após a introdução de uma promoção por parte do cliente.
+- "DescontarPrecoDelegate.java" -> ficheiro java que calcula o preço final (desconto de 5%) se o cliente utilizar cartão como forma de pagamento.
+- "EmailTripPlanSummaryDelegate.java" -> ficheiro java que irá fazer o envio do email com a fatura e o registo do plano para o email do cliente.
 
 FALTA:
 -WORD
