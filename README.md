@@ -8,7 +8,19 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17, nomeadame
 - "DiscoveredModel.bpmn" -> modelo "bpmn" gerado pela ferramenta "apromore" utilizando o ficheiro excel como input de dados.
 - "ImprovedModel.bpmn" -> modelo "bpmn" baseado no modelo "DiscoveredModel.bpmn", melhorado e organizado na ferramenta signavio.
 - "G17.docx" -> Relatório de trabalho que contem respostas às perguntas e clarificações sobre as opções tomadas pelo grupo.
--  "Enunciado.pdf" -> ficheiro pdf referente ao enunciado do projeto proposto pelos professores.
+- "Enunciado.pdf" -> ficheiro pdf referente ao enunciado do projeto proposto pelos professores.
+- "tripPlan-jdl.jdl -> ficheiro .jdl com representação em UML da base de dados utilizada no projeto.
+- "Aviao.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Aviao.
+- "Hotel.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Hotel.
+- "Carro.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Carro.
+- "Promocao.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe Promocao.
+- "TripPlan.json" -> ficheiro json do tipo "Domain-Entity" com informação da classe TravelPlan.
+- "TripPlanProcess.json" -> ficheiro json do tipo "Process-Bind-Entity" com informação da classe TravelPlan de forma a ligar aos objetos e ao camunda.
+- "TripPlanStartForm.json" -> ficheiro json do tipo "Start-Form-Entity" com informação inicial da classe TravelPlan.
+- "DisponibilizarDadosCliente" -> 
+- "DisponibilizarDadosPagamento" -> 
+- "IndicarMetodoPagamento" -> 
+- 
 FALTA:
 -BIMP
 -JSON
