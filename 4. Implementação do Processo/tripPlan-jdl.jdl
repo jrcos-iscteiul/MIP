@@ -1,0 +1,58 @@
+
+entity TripPlan {
+	nomePlano String,
+	inicioTrip Date,
+    fimTrip Date,
+    temPromocao Boolean,
+    querCarro Boolean,
+    precoTotal Double,
+    precoPromocional Double,
+    precoDescontado Double,
+    querCartao Boolean,
+    numeroCartao Integer,
+    numeroCVV Integer,
+    titularCartao String,
+    nomeCliente String,
+    numeroContribuinte Integer,
+    emailCliente String,
+    idBilheteAviao Integer,
+    numeroLugarAviao Integer
+}
+
+entity Carro {
+	matriculaCarro String,
+    marcaCarro String,
+    precoCarro Double
+}
+
+entity Voo {
+	nomeCompanhiaAerea String,
+    precoVoo Double
+}
+
+entity Hotel {
+	nomeHotel String,
+    localizacaoHotel String,
+    precoHotel Double
+}
+
+entity Promocao {
+	nomePromocao String,
+    valorPromocao Double
+}
+
+relationship ManyToOne {
+	Promocao{tripPlan} to TripPlan
+}
+
+relationship ManyToOne {
+	Carro{tripPlan} to TripPlan
+}
+
+relationship ManyToOne {
+	Hotel{tripPlan} to TripPlan
+}
+
+relationship ManyToOne {
+	Voo{tripPlan} to TripPlan
+}
