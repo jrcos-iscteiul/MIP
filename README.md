@@ -20,10 +20,10 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17 na 2ºPart
 
 - DIRETORIA "3.Otimização dos Recursos do Proceso":
   - DIRETORIA "Graphics":
-    - "Activity instances over time.pdf" -> 
-    - "Case Duration.pdf" -> 
-    - "Case Variants.pdf" -> 
-    - "Work-In-Progress (WIP).pdf" -> 
+    - "Activity instances over time.pdf" -> ficheiro mxmml gerado no apromore contendo o conjunto das simulações relativamente às instâncias das atividades
+    - "Case Duration.pdf" -> ficheiro mxmml gerado no apromore contendo o conjunto das simulações relativamente às durações dos casos das atividades
+    - "Case Variants.pdf" -> ficheiro mxmml gerado no apromore contendo o conjunto das simulações relativamente às variantes dos casos
+    - "Work-In-Progress (WIP).pdf" -> ficheiro mxmml gerado no apromore contendo o conjunto das simulações relativamente ao trabalho em progresso
   - "MinimalistScenario.bpmn" -> ficheiro bpmn representante do cenáro minimalista onde apenas é utilizado 1 recurso de cada role.
   - "MinimalistSimulationLog.mxml.gz" -> ficheiro mxml utilizado para as observações gráficas dos resultados estatisticos no cenario minimalista.
   - "OptimizedScenario.bpmn" -> ficheiro bpmn representante do cenáro otimizado onde o grupo alterou o valor dos recursos tempo e dinheiro dos valores para a simulação.
