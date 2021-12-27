@@ -63,4 +63,4 @@ Este repositório contém todos os ficheiros utilizados pelo Grupo 17 na 2ºPart
   - "ImplementationModel.bpmn" -> ficheiro bpmn criado pelo grupo como processo base na criação da aplicação e implementação do modelo.
 
 O grupo também criou um video de forma a explicar o modelo BPMN utilizado e demonstrando o sistema desenvolvido:
-- Link Youtube -> "".
+- Link Youtube -> "https://youtu.be/ingWg13LuB0".
